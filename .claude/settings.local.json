@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run dev:*)",
+      "Bash(npm run lint)",
+      "Bash(npm run build:*)",
+      "WebFetch(domain:ai.google.dev)",
+      "WebFetch(domain:github.com)",
+      "Bash(npm install:*)",
+      "Bash(timeout 10 npm run dev)",
+      "Bash(timeout 10s npm run dev)",
+      "Bash(grep:*)",
+      "Bash(npm run test:run:*)",
+      "Bash(npm run lint:*)",
+      "Bash(rm:*)"
+    ],
+    "deny": []
+  }
+}
